@@ -86,7 +86,7 @@ org_names <- names(Data)
 #  Calulate the mean of each activity variable
 {
   Data.Summary <- Data %>%
-    group_by(activity) %>%
+    group_by(subject,activity) %>%
     summarise(
       Expected_tBodyAcc_mean_X = mean(tBodyAcc_mean_X, na.rm = T),
       Expected_tBodyAcc_mean_Y = mean(tBodyAcc_mean_Y, na.rm = T),
