@@ -2,22 +2,13 @@
 ## Source
 This clean up is based on the data found in the following:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-
 Which was recorded during the Human Activity study performed by:
-==================================================================
-Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
-Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Università degli Studi di Genova.
-Via Opera Pia 11A, I-16145, Genoa, Italy.
-activityrecognition@smartlab.ws
-www.smartlab.ws
-==================================================================
 
-##Data Set & Summary
+## Data Set & Summary
 The final data set contains 180 records and 68 variables. The Subject and Activity reflect the person and what they where doing respectively.
 The remaining 66 variables are the average values of the measurements from the study for each subject - activity combination.
 
-##Units
+## Units
 Each Variable is the average time.
 
 ## Variable Names
