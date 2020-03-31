@@ -6,3 +6,7 @@ Human Activity research. I retained the variable names from the feature selectio
 rich in content. I removed excess symbols and replaced a few values to make them easier to reference. The 'DataSummary' CSV
 groups the Data by activity and determines the mean (expected value) of each of the variable measurements. 
 
+## Script functions
+This script imports and combines the data from the study, selects the features of interest, cleans up the variable names
+and summarizes the values using the mean.
+
